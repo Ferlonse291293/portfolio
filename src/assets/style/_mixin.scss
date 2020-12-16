@@ -1,0 +1,59 @@
+
+
+@mixin ps-icons($top, $left,$url,$b-s1,$b-s2,$width,$height) {
+    content: "" ;
+    position: absolute;
+    top:$top;
+    left:$left;
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-size: $b-s1 $b-s2;
+    width: $width;
+    height: $height;
+    display: block;
+}
+@mixin link-button($font-size, $line-height, $font-family,$color,$background-color, $bold: normal){
+    font-weight: $bold;
+    font-size: $font-size;
+    line-height: $line-height;
+    font-family: $font-family;
+    color: $color;
+    background: $background-color;
+    text-decoration: none;
+    list-style: none;
+}
+
+@mixin text ($font-size, $line-height, $font-family,$color: black, $font-weight: normal,$background: none ){
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    font-family: $font-family;
+    color:$color;
+    background: $background;
+
+}
+@mixin button-red($border-radius: 30px,$padding-vertical: 20px, $padding-horizontal: 90px, $size-text: 20px){
+  border: none;
+  @include link-button(20px,auto,Montserrat,$colorWhiteText,$colorRed, bold);
+  padding: $padding-vertical $padding-horizontal;
+  box-sizing: border-box;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow1;
+}
+@mixin button-social($border-radius: 30px,$padding-vertical: 10px, $padding-horizontal: 30px, $size-text: 20px){
+  border: 1px solid $colorBlue2;
+  width: 250px;
+  @include link-button(16px,auto,Montserrat,$colorBlack,transparent);
+  padding: $padding-vertical $padding-horizontal;
+  box-sizing: border-box;
+  border-radius: $border-radius;
+}
+
+
+
+
+
+
+
+
+

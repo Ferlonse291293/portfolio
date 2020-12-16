@@ -1,0 +1,64 @@
+@import './_mixin';
+// Переменные шрифта текста
+$textExtrabold:'Opens Sans';
+$textRegular:'Opens Sans';
+$textSemibold:'Opens Sans';
+$textBold:'Opens Sans';
+$textMedium:'Opens Sans';
+
+
+//Переменные размера текста
+
+//Переменные цветов
+$colorPriority1: #636ece;
+$colorBlack: black;
+$colorBlue:#061e37;
+$colorGrey:#a1adb5;
+$colorGrey2:#78909c;
+$colorYellow: #ffb700;
+$colorRed: rgba(255, 36, 24, 0.89);
+$colorGreen: #2dd188;
+
+
+
+//color text
+$colorWhiteText: white;
+//тени
+
+$box-shadow1: 0 14px 10px -5px #CB9794;
+
+/////////////
+
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  // background: radial-gradient(at top, #FEFFFF, #dde3e3);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+
+}
+
+.wrapper-center {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+app-root,
+app-home-layout,
+app-home-page{
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+

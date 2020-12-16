@@ -1,0 +1,43 @@
+@import '../../../../../assets/style/shared-style';
+
+.wrapper-center{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+ &__text{
+   color: white;
+ }
+}
+
+.navigation {
+
+          &__list{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+
+          }
+          &__item{
+            padding: 5px 10px;
+            background: white;
+            margin-left: 10px;
+          }
+
+}
+
+
+
+
+
