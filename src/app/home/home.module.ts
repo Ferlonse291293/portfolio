@@ -5,8 +5,9 @@ import { HomePageComponent } from './home-page/home-page.component';
 import {HomeRoutingModule} from './home-routing.module';
 import { HeaderComponent } from './components/global-block/header/header.component';
 import { FooterComponent } from './components/global-block/footer/footer.component';
-import { SignInComponent } from './components/main-block/sign-in/sign-in.component';
+import { SignInComponent } from './components/global-block/sign-in/sign-in.component';
 import { ImageComponent } from './components/main-block/image/image.component';
+import { RegisterComponent } from './components/main-block/register/register.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ImageComponent } from './components/main-block/image/image.component';
     HeaderComponent,
     FooterComponent,
     SignInComponent,
-    ImageComponent
+    ImageComponent,
+    RegisterComponent
   ],
   imports: [
     SharedModule,

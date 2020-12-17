@@ -17,6 +17,7 @@ import {
 
 
 } from './services';
+import {ModalService} from './services/shared';
 
 
 
@@ -57,6 +58,9 @@ import {
 
 
         // guards
+
+      //
+        ModalService
 
 
     ],

@@ -1,0 +1,33 @@
+@import '../../../../../assets/style/shared-style';
+
+.form{
+  max-width: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+  .block-input{
+    max-width: 200px;
+   background: white;
+  }
+
+  &__email,
+  &__password{
+border: none;
+  }
+
+  &__email{
+
+  }
+  &__password{
+
+  }
+  &__submit{
+
+    background: #2dd188;
+
+  }
+}
+

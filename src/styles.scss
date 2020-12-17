@@ -2,3 +2,9 @@
 @import './assets/style/normalize';
 @import './assets/style/shared-style';
 
+
+html, body { height: 100%; }
+body {font-family: Roboto, "Tahoma", sans-serif; }
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
